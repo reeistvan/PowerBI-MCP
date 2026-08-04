@@ -1,0 +1,105 @@
+table Claims
+	lineageTag: 4e21d56b-2d1e-4989-be28-eb5767e1dd44
+
+	column ClaimID
+		dataType: string
+		lineageTag: 10673151-45fd-4ee4-aeb0-4e7f433cc7b9
+		summarizeBy: none
+		sourceColumn: ClaimID
+
+		annotation SummarizationSetBy = Automatic
+
+	column ClaimDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 6afebf11-1490-46ff-a2db-dac15dc183bc
+		summarizeBy: none
+		sourceColumn: ClaimDate
+
+		variation Variation
+			isDefault
+			relationship: 2d709244-3ecc-4eff-8fd2-85e423285f00
+			defaultHierarchy: LocalDateTable_9b4b6818-6d02-4d1d-9307-0efa6e53ac39.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column RegionName
+		dataType: string
+		lineageTag: 14f784b4-186d-4990-9f7b-425d8eb3b51b
+		summarizeBy: none
+		sourceColumn: RegionName
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductName
+		dataType: string
+		lineageTag: 466ade0c-6693-414f-882e-8dcfea282862
+		summarizeBy: none
+		sourceColumn: ProductName
+
+		annotation SummarizationSetBy = Automatic
+
+	column ClaimType
+		dataType: string
+		lineageTag: e5b48c10-c292-4c50-9f12-d741b6978893
+		summarizeBy: none
+		sourceColumn: ClaimType
+
+		annotation SummarizationSetBy = Automatic
+
+	column ClaimAmount
+		dataType: int64
+		formatString: 0
+		lineageTag: 753b3801-57d9-485e-b16f-2e5b3451f3be
+		summarizeBy: sum
+		sourceColumn: ClaimAmount
+
+		annotation SummarizationSetBy = Automatic
+
+	measure Total Claim Amount =
+		SUM(Claims[ClaimAmount])
+		formatString: "$#,0.00;($#,0.00);$#,0.00"
+
+	measure High Value Claim Amount =
+		CALCULATE(
+			SUM(Claims[ClaimAmount]),
+			Claims[ClaimAmount] > 500000
+		)
+		formatString: "$#,0.00;($#,0.00);$#,0.00"
+
+	measure High Value Claim Count =
+		CALCULATE(
+			COUNTROWS(Claims),
+			Claims[ClaimAmount] > 500000
+		)
+		formatString: "0"
+
+	measure High Value Claim Ratio =
+		DIVIDE(
+			[High Value Claim Amount],
+			[Total Claim Amount],
+			0
+		)
+		formatString: "0.0%"
+
+	measure Average High Value Claim =
+		CALCULATE(
+			AVERAGE(Claims[ClaimAmount]),
+			Claims[ClaimAmount] > 500000
+		)
+		formatString: "$#,0.00;($#,0.00);$#,0.00"
+
+	partition Claims = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\User\_WORKSPACES\Training\PowerBI MCP\data\Claims.csv"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"ClaimID", type text}, {"ClaimDate", type date}, {"RegionName", type text}, {"ProductName", type text}, {"ClaimType", type text}, {"ClaimAmount", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

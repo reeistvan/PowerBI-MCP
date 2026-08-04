@@ -1,0 +1,5 @@
+relationship 2d709244-3ecc-4eff-8fd2-85e423285f00
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Claims.ClaimDate
+	toColumn: LocalDateTable_9b4b6818-6d02-4d1d-9307-0efa6e53ac39.Date
+

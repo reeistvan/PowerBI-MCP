@@ -1,0 +1,201 @@
+ClaimID,ClaimDate,RegionName,ProductName,ClaimType,ClaimAmount
+CLM001,2025-10-16,Budapest,Casco,Baleset,1076779
+CLM002,2024-09-07,Nyugat,Lakás,Baleset,714948
+CLM003,2025-11-23,Dél,Casco,Baleset,1384835
+CLM004,2024-02-02,Budapest,Casco,Elemi kár,987926
+CLM005,2025-06-01,Dél,Casco,Baleset,916993
+CLM006,2025-10-27,Dél,Élet,Elemi kár,1442060
+CLM007,2025-08-26,Kelet,Casco,Elemi kár,1964105
+CLM008,2025-03-08,Kelet,Utas,Elemi kár,951546
+CLM009,2024-12-10,Budapest,Casco,Lopás,702829
+CLM010,2025-01-02,Kelet,Vállalati,Lopás,591123
+CLM011,2025-04-15,Dél,Casco,Lopás,665256
+CLM012,2025-07-19,Kelet,Vállalati,Lopás,1710796
+CLM013,2024-07-15,Budapest,Casco,Baleset,977938
+CLM014,2024-10-23,Budapest,Lakás,Elemi kár,1297183
+CLM015,2024-10-11,Észak,Utas,Elemi kár,1276326
+CLM016,2024-12-29,Nyugat,Utas,Baleset,1933504
+CLM017,2025-10-25,Budapest,Vállalati,Baleset,858904
+CLM018,2025-06-30,Nyugat,Lakás,Lopás,1295776
+CLM019,2024-10-03,Dél,Lakás,Baleset,1180071
+CLM020,2024-02-27,Nyugat,Casco,Lopás,1341304
+CLM021,2024-10-01,Budapest,Lakás,Baleset,1159928
+CLM022,2024-08-05,Észak,Élet,Baleset,1462283
+CLM023,2024-05-26,Kelet,Lakás,Elemi kár,1677275
+CLM024,2025-07-05,Kelet,Vállalati,Lopás,1723758
+CLM025,2025-02-12,Kelet,Lakás,Elemi kár,1568555
+CLM026,2025-05-20,Budapest,Casco,Elemi kár,820532
+CLM027,2025-10-04,Nyugat,Élet,Baleset,633228
+CLM028,2025-01-29,Észak,Vállalati,Lopás,1609634
+CLM029,2024-09-14,Dél,Casco,Baleset,740233
+CLM030,2025-11-29,Dél,Utas,Baleset,1213400
+CLM031,2024-04-24,Kelet,Élet,Elemi kár,1451528
+CLM032,2024-01-04,Kelet,Vállalati,Elemi kár,1564686
+CLM033,2024-04-18,Kelet,Vállalati,Baleset,917147
+CLM034,2024-06-05,Kelet,Lakás,Baleset,1612233
+CLM035,2024-01-01,Dél,Utas,Lopás,540846
+CLM036,2024-04-24,Kelet,Utas,Elemi kár,621478
+CLM037,2024-09-03,Dél,Casco,Elemi kár,1519196
+CLM038,2024-03-11,Dél,Lakás,Elemi kár,1883598
+CLM039,2025-05-01,Dél,Lakás,Lopás,1606613
+CLM040,2025-09-13,Észak,Lakás,Baleset,1946758
+CLM041,2024-07-24,Kelet,Élet,Baleset,1412893
+CLM042,2025-01-17,Észak,Vállalati,Lopás,303764
+CLM043,2024-09-10,Nyugat,Casco,Lopás,94112
+CLM044,2025-08-25,Dél,Lakás,Baleset,511829
+CLM045,2024-01-08,Budapest,Casco,Elemi kár,191348
+CLM046,2024-02-02,Kelet,Casco,Baleset,549131
+CLM047,2024-10-12,Észak,Lakás,Baleset,327478
+CLM048,2025-08-07,Dél,Élet,Elemi kár,1695466
+CLM049,2025-04-29,Észak,Lakás,Elemi kár,253278
+CLM050,2025-11-05,Észak,Utas,Lopás,912143
+CLM051,2025-04-23,Budapest,Casco,Elemi kár,894358
+CLM052,2024-12-13,Budapest,Lakás,Elemi kár,448896
+CLM053,2025-07-03,Észak,Lakás,Lopás,434802
+CLM054,2024-10-12,Észak,Lakás,Elemi kár,979312
+CLM055,2025-07-17,Budapest,Casco,Baleset,1183695
+CLM056,2024-01-16,Budapest,Lakás,Elemi kár,902312
+CLM057,2025-05-12,Észak,Lakás,Lopás,1942559
+CLM058,2024-03-01,Nyugat,Élet,Elemi kár,868773
+CLM059,2024-09-28,Észak,Utas,Lopás,1510858
+CLM060,2025-07-23,Észak,Lakás,Elemi kár,672241
+CLM061,2024-08-10,Budapest,Vállalati,Baleset,1187065
+CLM062,2024-03-03,Kelet,Casco,Elemi kár,1275109
+CLM063,2025-05-03,Dél,Vállalati,Elemi kár,169285
+CLM064,2025-06-04,Budapest,Lakás,Elemi kár,1297879
+CLM065,2024-03-10,Nyugat,Élet,Elemi kár,1917067
+CLM066,2025-08-06,Nyugat,Vállalati,Baleset,133344
+CLM067,2025-09-26,Budapest,Élet,Baleset,1274049
+CLM068,2025-08-01,Dél,Utas,Lopás,478362
+CLM069,2025-11-16,Kelet,Lakás,Lopás,880023
+CLM070,2024-05-14,Kelet,Élet,Lopás,1998292
+CLM071,2024-03-15,Budapest,Élet,Baleset,1230683
+CLM072,2024-04-12,Budapest,Vállalati,Elemi kár,1110917
+CLM073,2024-09-28,Nyugat,Utas,Elemi kár,1893963
+CLM074,2024-09-07,Kelet,Utas,Elemi kár,968939
+CLM075,2025-07-10,Kelet,Vállalati,Baleset,1159269
+CLM076,2024-01-09,Dél,Utas,Baleset,267236
+CLM077,2024-05-17,Kelet,Casco,Elemi kár,1606960
+CLM078,2025-07-20,Nyugat,Utas,Lopás,1318420
+CLM079,2024-08-03,Kelet,Lakás,Baleset,1380093
+CLM080,2024-09-27,Dél,Élet,Lopás,1948628
+CLM081,2024-02-22,Budapest,Élet,Lopás,142456
+CLM082,2024-01-04,Kelet,Lakás,Baleset,599360
+CLM083,2024-06-14,Észak,Vállalati,Baleset,946924
+CLM084,2025-07-28,Budapest,Casco,Elemi kár,1902008
+CLM085,2025-12-08,Nyugat,Vállalati,Elemi kár,1800272
+CLM086,2025-01-13,Dél,Vállalati,Elemi kár,951328
+CLM087,2024-05-10,Budapest,Utas,Lopás,1935300
+CLM088,2024-02-10,Kelet,Lakás,Baleset,573301
+CLM089,2025-11-13,Budapest,Utas,Baleset,1904164
+CLM090,2025-02-20,Dél,Lakás,Elemi kár,1863209
+CLM091,2024-06-15,Nyugat,Élet,Elemi kár,426146
+CLM092,2024-12-06,Észak,Lakás,Lopás,383862
+CLM093,2025-12-19,Budapest,Élet,Elemi kár,1850600
+CLM094,2025-04-26,Nyugat,Lakás,Lopás,783286
+CLM095,2024-11-08,Nyugat,Lakás,Elemi kár,1434189
+CLM096,2024-07-16,Észak,Utas,Lopás,1862679
+CLM097,2024-03-12,Kelet,Utas,Baleset,1118301
+CLM098,2025-02-13,Dél,Utas,Elemi kár,291889
+CLM099,2024-09-24,Nyugat,Vállalati,Lopás,130231
+CLM100,2024-04-21,Dél,Élet,Lopás,1577869
+CLM101,2024-11-17,Észak,Vállalati,Baleset,292526
+CLM102,2025-01-29,Dél,Lakás,Lopás,143085
+CLM103,2025-12-26,Észak,Casco,Baleset,1991071
+CLM104,2025-07-05,Nyugat,Utas,Lopás,196745
+CLM105,2025-11-11,Kelet,Vállalati,Lopás,1441224
+CLM106,2024-05-07,Kelet,Vállalati,Lopás,1448575
+CLM107,2025-02-22,Kelet,Élet,Baleset,670033
+CLM108,2025-07-21,Nyugat,Lakás,Lopás,1444458
+CLM109,2025-01-23,Nyugat,Vállalati,Baleset,681137
+CLM110,2025-02-19,Dél,Casco,Lopás,651701
+CLM111,2024-08-03,Észak,Vállalati,Baleset,1423017
+CLM112,2024-11-25,Észak,Élet,Lopás,1466893
+CLM113,2024-08-06,Dél,Élet,Baleset,405868
+CLM114,2025-11-05,Budapest,Utas,Baleset,1442202
+CLM115,2025-10-10,Dél,Utas,Elemi kár,1766358
+CLM116,2024-08-28,Kelet,Lakás,Elemi kár,359023
+CLM117,2024-01-26,Budapest,Lakás,Lopás,1331934
+CLM118,2024-03-15,Észak,Élet,Baleset,1257269
+CLM119,2024-07-18,Észak,Élet,Lopás,561672
+CLM120,2024-05-31,Budapest,Casco,Lopás,508943
+CLM121,2024-06-29,Dél,Élet,Elemi kár,1218964
+CLM122,2024-09-12,Budapest,Élet,Elemi kár,1730692
+CLM123,2025-04-20,Dél,Vállalati,Baleset,715422
+CLM124,2025-03-29,Dél,Vállalati,Lopás,1791829
+CLM125,2025-07-15,Észak,Lakás,Baleset,1856685
+CLM126,2025-05-01,Észak,Utas,Elemi kár,1811320
+CLM127,2025-10-14,Kelet,Vállalati,Lopás,1364386
+CLM128,2024-09-01,Kelet,Élet,Elemi kár,1546412
+CLM129,2024-10-19,Nyugat,Utas,Lopás,720479
+CLM130,2025-07-07,Budapest,Lakás,Elemi kár,534990
+CLM131,2025-01-27,Nyugat,Lakás,Elemi kár,920041
+CLM132,2025-02-21,Kelet,Vállalati,Lopás,921941
+CLM133,2024-03-04,Nyugat,Élet,Lopás,1947583
+CLM134,2025-08-21,Budapest,Vállalati,Lopás,1050299
+CLM135,2024-01-07,Kelet,Utas,Lopás,1839810
+CLM136,2025-03-05,Dél,Vállalati,Baleset,1932846
+CLM137,2024-08-13,Észak,Lakás,Lopás,964014
+CLM138,2025-05-12,Budapest,Élet,Lopás,1452729
+CLM139,2025-11-26,Észak,Lakás,Lopás,1978418
+CLM140,2024-05-10,Dél,Vállalati,Elemi kár,1951967
+CLM141,2025-02-07,Dél,Vállalati,Baleset,106837
+CLM142,2024-03-26,Észak,Lakás,Lopás,431113
+CLM143,2024-02-21,Kelet,Élet,Lopás,493883
+CLM144,2025-04-10,Kelet,Utas,Lopás,633546
+CLM145,2025-03-07,Kelet,Casco,Lopás,90649
+CLM146,2025-07-06,Budapest,Utas,Elemi kár,1413450
+CLM147,2024-03-11,Budapest,Casco,Elemi kár,468089
+CLM148,2024-01-21,Dél,Lakás,Elemi kár,314704
+CLM149,2025-04-29,Budapest,Vállalati,Elemi kár,1025246
+CLM150,2025-12-17,Kelet,Utas,Elemi kár,1320649
+CLM151,2025-09-13,Budapest,Lakás,Lopás,276699
+CLM152,2025-08-15,Budapest,Utas,Baleset,1470500
+CLM153,2025-01-19,Észak,Lakás,Elemi kár,1291719
+CLM154,2025-12-08,Nyugat,Casco,Baleset,1670009
+CLM155,2024-11-04,Dél,Casco,Baleset,1691305
+CLM156,2024-02-12,Kelet,Vállalati,Lopás,1437310
+CLM157,2025-01-14,Budapest,Vállalati,Baleset,765613
+CLM158,2024-01-13,Észak,Élet,Elemi kár,959164
+CLM159,2025-01-05,Észak,Lakás,Lopás,419385
+CLM160,2025-06-18,Kelet,Vállalati,Baleset,1674540
+CLM161,2025-05-10,Észak,Élet,Baleset,1292509
+CLM162,2024-10-01,Kelet,Lakás,Elemi kár,634954
+CLM163,2025-04-06,Nyugat,Élet,Baleset,1329958
+CLM164,2025-11-15,Észak,Utas,Elemi kár,1086635
+CLM165,2024-11-28,Nyugat,Élet,Elemi kár,794121
+CLM166,2024-09-21,Kelet,Utas,Baleset,1520488
+CLM167,2024-10-09,Dél,Casco,Baleset,450674
+CLM168,2024-03-28,Nyugat,Élet,Lopás,1214288
+CLM169,2024-09-03,Észak,Élet,Lopás,1712900
+CLM170,2024-01-18,Budapest,Utas,Elemi kár,898090
+CLM171,2025-12-09,Nyugat,Utas,Baleset,1269610
+CLM172,2025-01-12,Észak,Vállalati,Baleset,770911
+CLM173,2025-03-11,Dél,Utas,Lopás,1523993
+CLM174,2025-04-09,Kelet,Utas,Lopás,533473
+CLM175,2024-05-03,Nyugat,Utas,Elemi kár,1607934
+CLM176,2025-07-02,Nyugat,Lakás,Elemi kár,1598966
+CLM177,2025-05-10,Kelet,Vállalati,Baleset,1301560
+CLM178,2024-10-16,Budapest,Lakás,Lopás,527066
+CLM179,2025-01-04,Nyugat,Utas,Elemi kár,1534822
+CLM180,2025-06-30,Nyugat,Utas,Elemi kár,164349
+CLM181,2025-07-20,Kelet,Lakás,Baleset,1871295
+CLM182,2025-05-17,Budapest,Casco,Baleset,646302
+CLM183,2025-04-25,Észak,Élet,Lopás,436638
+CLM184,2024-02-22,Kelet,Élet,Elemi kár,1774101
+CLM185,2024-03-07,Észak,Élet,Elemi kár,1260101
+CLM186,2025-10-06,Budapest,Lakás,Elemi kár,1751088
+CLM187,2025-07-30,Kelet,Casco,Elemi kár,298410
+CLM188,2025-07-25,Észak,Vállalati,Baleset,1708303
+CLM189,2025-09-25,Nyugat,Vállalati,Lopás,994797
+CLM190,2025-03-29,Kelet,Vállalati,Lopás,690428
+CLM191,2025-08-05,Dél,Casco,Baleset,1602079
+CLM192,2024-04-11,Nyugat,Lakás,Lopás,1435018
+CLM193,2024-03-24,Nyugat,Lakás,Elemi kár,1207611
+CLM194,2024-03-17,Nyugat,Casco,Lopás,994774
+CLM195,2025-12-06,Dél,Élet,Lopás,118450
+CLM196,2024-08-25,Kelet,Utas,Baleset,1852725
+CLM197,2025-04-09,Budapest,Lakás,Lopás,1702195
+CLM198,2025-10-02,Dél,Lakás,Lopás,290703
+CLM199,2025-07-11,Nyugat,Lakás,Lopás,1783571
+CLM200,2024-05-25,Budapest,Casco,Elemi kár,1712262
